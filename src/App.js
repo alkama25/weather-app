@@ -9,9 +9,9 @@ function App() {
     <div className="bg-gray-900 min-h-screen ">
       <div class="w-full md:w-3/5 md:mx-auto lg:w-3/5 lg:mx-auto">
         <SearchBar></SearchBar>
-        <WeatherCard></WeatherCard>
         <WeatherChart></WeatherChart>
         <WeatherDetails></WeatherDetails>
+        <WeatherCard></WeatherCard>
       </div>
     </div>
   );
